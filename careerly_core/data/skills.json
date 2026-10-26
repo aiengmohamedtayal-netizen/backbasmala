@@ -1,0 +1,394 @@
+[
+ {
+  "name": "Python",
+  "category": "Programming",
+  "aliases": [
+   "python",
+   "python3"
+  ],
+  "id": 1
+ },
+ {
+  "name": "Java",
+  "category": "Programming",
+  "aliases": [
+   "java"
+  ],
+  "id": 2
+ },
+ {
+  "name": "C++",
+  "category": "Programming",
+  "aliases": [
+   "c++"
+  ],
+  "id": 3
+ },
+ {
+  "name": "C#",
+  "category": "Programming",
+  "aliases": [
+   "c#"
+  ],
+  "id": 4
+ },
+ {
+  "name": "JavaScript",
+  "category": "Programming",
+  "aliases": [
+   "javascript",
+   "ecmascript",
+   "es6"
+  ],
+  "id": 5
+ },
+ {
+  "name": "TypeScript",
+  "category": "Programming",
+  "aliases": [
+   "typescript"
+  ],
+  "implies": [
+   "JavaScript"
+  ],
+  "id": 6
+ },
+ {
+  "name": "SQL",
+  "category": "Database",
+  "aliases": [
+   "sql",
+   "t-sql",
+   "tsql",
+   "pl/sql"
+  ],
+  "id": 7
+ },
+ {
+  "name": "PostgreSQL",
+  "category": "Database",
+  "aliases": [
+   "postgresql",
+   "postgres"
+  ],
+  "implies": [
+   "SQL"
+  ],
+  "id": 8
+ },
+ {
+  "name": "MySQL",
+  "category": "Database",
+  "aliases": [
+   "mysql"
+  ],
+  "implies": [
+   "SQL"
+  ],
+  "id": 9
+ },
+ {
+  "name": "MongoDB",
+  "category": "Database",
+  "aliases": [
+   "mongodb",
+   "mongo db"
+  ],
+  "id": 10
+ },
+ {
+  "name": "Excel",
+  "category": "Analytics",
+  "aliases": [
+   "excel",
+   "microsoft excel",
+   "ms excel",
+   "advanced excel"
+  ],
+  "id": 11
+ },
+ {
+  "name": "Statistics",
+  "category": "Analytics",
+  "aliases": [
+   "statistics",
+   "statistical analysis",
+   "hypothesis testing",
+   "statistical modeling"
+  ],
+  "id": 12
+ },
+ {
+  "name": "Data Cleaning",
+  "category": "Analytics",
+  "aliases": [
+   "data cleaning",
+   "data cleansing",
+   "data wrangling",
+   "data preprocessing",
+   "data preparation"
+  ],
+  "id": 13
+ },
+ {
+  "name": "Data Visualization",
+  "category": "Visualization",
+  "aliases": [
+   "data visualization",
+   "data visualisation",
+   "data viz",
+   "dashboards",
+   "dashboarding"
+  ],
+  "id": 14
+ },
+ {
+  "name": "Power BI",
+  "category": "Visualization",
+  "aliases": [
+   "power bi",
+   "powerbi"
+  ],
+  "implies": [
+   "Data Visualization"
+  ],
+  "id": 15
+ },
+ {
+  "name": "Tableau",
+  "category": "Visualization",
+  "aliases": [
+   "tableau"
+  ],
+  "implies": [
+   "Data Visualization"
+  ],
+  "id": 16
+ },
+ {
+  "name": "Pandas",
+  "category": "Data Science",
+  "aliases": [
+   "pandas"
+  ],
+  "implies": [
+   "Data Cleaning"
+  ],
+  "id": 17
+ },
+ {
+  "name": "NumPy",
+  "category": "Data Science",
+  "aliases": [
+   "numpy"
+  ],
+  "id": 18
+ },
+ {
+  "name": "Machine Learning",
+  "category": "AI / ML",
+  "aliases": [
+   "machine learning"
+  ],
+  "id": 19
+ },
+ {
+  "name": "Deep Learning",
+  "category": "AI / ML",
+  "aliases": [
+   "deep learning",
+   "neural networks"
+  ],
+  "implies": [
+   "Machine Learning"
+  ],
+  "id": 20
+ },
+ {
+  "name": "Scikit-learn",
+  "category": "AI / ML",
+  "aliases": [
+   "scikit-learn",
+   "scikit learn",
+   "sklearn"
+  ],
+  "implies": [
+   "Machine Learning"
+  ],
+  "id": 21
+ },
+ {
+  "name": "TensorFlow",
+  "category": "AI / ML",
+  "aliases": [
+   "tensorflow",
+   "keras"
+  ],
+  "implies": [
+   "Machine Learning",
+   "Deep Learning"
+  ],
+  "id": 22
+ },
+ {
+  "name": "PyTorch",
+  "category": "AI / ML",
+  "aliases": [
+   "pytorch"
+  ],
+  "implies": [
+   "Machine Learning",
+   "Deep Learning"
+  ],
+  "id": 23
+ },
+ {
+  "name": "NLP",
+  "category": "AI / ML",
+  "aliases": [
+   "nlp",
+   "natural language processing"
+  ],
+  "id": 24
+ },
+ {
+  "name": "HTML",
+  "category": "Web",
+  "aliases": [
+   "html",
+   "html5"
+  ],
+  "id": 25
+ },
+ {
+  "name": "CSS",
+  "category": "Web",
+  "aliases": [
+   "css",
+   "css3"
+  ],
+  "id": 26
+ },
+ {
+  "name": "Tailwind CSS",
+  "category": "Web",
+  "aliases": [
+   "tailwind",
+   "tailwind css",
+   "tailwindcss"
+  ],
+  "implies": [
+   "CSS"
+  ],
+  "id": 27
+ },
+ {
+  "name": "React",
+  "category": "Web",
+  "aliases": [
+   "react",
+   "react.js",
+   "reactjs"
+  ],
+  "implies": [
+   "JavaScript"
+  ],
+  "id": 28
+ },
+ {
+  "name": "Node.js",
+  "category": "Web",
+  "aliases": [
+   "node.js",
+   "nodejs",
+   "node js"
+  ],
+  "implies": [
+   "JavaScript"
+  ],
+  "id": 29
+ },
+ {
+  "name": "FastAPI",
+  "category": "Backend",
+  "aliases": [
+   "fastapi",
+   "fast api"
+  ],
+  "implies": [
+   "REST APIs"
+  ],
+  "id": 30
+ },
+ {
+  "name": "Django",
+  "category": "Backend",
+  "aliases": [
+   "django"
+  ],
+  "implies": [
+   "REST APIs"
+  ],
+  "id": 31
+ },
+ {
+  "name": "Flask",
+  "category": "Backend",
+  "aliases": [
+   "flask"
+  ],
+  "implies": [
+   "REST APIs"
+  ],
+  "id": 32
+ },
+ {
+  "name": "REST APIs",
+  "category": "Backend",
+  "aliases": [
+   "rest api",
+   "rest apis",
+   "restful api",
+   "restful apis",
+   "restful services"
+  ],
+  "id": 33
+ },
+ {
+  "name": "Git",
+  "category": "Tools",
+  "aliases": [
+   "git",
+   "github",
+   "gitlab"
+  ],
+  "id": 34
+ },
+ {
+  "name": "Docker",
+  "category": "Tools",
+  "aliases": [
+   "docker",
+   "docker compose"
+  ],
+  "id": 35
+ },
+ {
+  "name": "Linux",
+  "category": "Tools",
+  "aliases": [
+   "linux",
+   "ubuntu"
+  ],
+  "id": 36
+ },
+ {
+  "name": "AWS",
+  "category": "Cloud",
+  "aliases": [
+   "aws",
+   "amazon web services"
+  ],
+  "id": 37
+ }
+]

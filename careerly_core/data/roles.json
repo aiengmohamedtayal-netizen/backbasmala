@@ -1,0 +1,7 @@
+{
+  "Data Analyst": {"skills": {"SQL": 3, "Excel": 3, "Python": 2, "Power BI": 2, "Statistics": 2, "Data Cleaning": 2, "Data Visualization": 2, "Tableau": 1}},
+  "Data Scientist": {"skills": {"Python": 3, "Machine Learning": 3, "Statistics": 3, "SQL": 2, "Pandas": 2, "NumPy": 2, "Scikit-learn": 2, "Data Visualization": 1, "Deep Learning": 1}},
+  "ML Engineer": {"skills": {"Python": 3, "Machine Learning": 3, "Deep Learning": 2, "PyTorch": 2, "TensorFlow": 2, "Docker": 2, "Git": 1, "SQL": 1, "NLP": 1}},
+  "Backend Developer": {"skills": {"Python": 3, "REST APIs": 3, "SQL": 3, "FastAPI": 2, "Django": 2, "PostgreSQL": 2, "Docker": 2, "Git": 2}},
+  "Frontend Developer": {"skills": {"JavaScript": 3, "React": 3, "HTML": 2, "CSS": 2, "TypeScript": 2, "Tailwind CSS": 1, "Git": 1}}
+}
